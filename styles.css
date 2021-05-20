@@ -24,6 +24,7 @@ nav {
     
 a {
         text-decoration: none;
+        font-weight: bold;
     }
     
 a:hover {
@@ -72,7 +73,10 @@ main {
     padding-left: 20px;
 }
 
+
+
 #github_link {
+    font-weight: bold;
     text-align: center;
     
 }
@@ -97,6 +101,7 @@ table {
     border: solid 1px #fff;
     border-collapse: separate;
     border-spacing:10px 0px;
+    margin-top: 50px;
     margin-left: 300px;
 }
 
@@ -116,18 +121,19 @@ table td {
 
 dl {
     text-align: left;
-    font-size: 22px;
     border: solid 1px #fff;
     border-collapse: separate;
     border-spacing:10px 0px;
-    margin-top: 0px;
 }
 
 dl dt {
         font-weight: bold;
+        font-size: 22px;
         background-color: #fff;
         border-top:solid 30px #fff;
-
+}
+dl dd {
+    font-size: 18px;
 }
 
 /* 製作者ページ */
