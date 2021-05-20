@@ -30,7 +30,7 @@ nav {
 }
 
 main {
-    background-color: deepskyblue;
+    background-color: #fff;
     margin-top: 100px;
 }
 
@@ -84,4 +84,18 @@ table td {
 
     /* 学習内容ページ */
 
+dl {
+    text-align: left;
+    font-size: 22px;
+    border: solid 1px #fff;
+    border-collapse: separate;
+    border-spacing:10px 0px;
+    margin-top: 0px;
+}
 
+dl dt {
+        font-weight: bold;
+        background-color: #fff;
+        border-top:solid 30px #fff;
+
+}
