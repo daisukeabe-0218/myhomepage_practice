@@ -28,6 +28,16 @@ nav {
     height: 600px;
     background-color:mistyrose;
 }
+ul li {
+    margin-top: 20px;
+    margin-botom: 20px;
+}
+
+a:hover {
+    color:wheat;
+    background: blue;
+}
+
 
 main {
     background-color: #fff;
@@ -102,9 +112,77 @@ dl dt {
 
 }
 
+/* 製作者ページ */
+
 #producer {
+    width: 90%;
     text-align: center;
 }
+
+/* おまけページ */
+
+#bonus_head {
+    width: 90%;
+    text-align: center;
+}
+
+.img_contents {
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+
+/* 丸くなるゴリラ */
+#gorira_contents {
+    float: left;
+    margin-left: 30px;
+}
+
+#gorira:hover {
+    border-radius: 50%;
+}
+
+/* 卵から雛が */
+#tamago_contents {
+    position: relative;
+    float: left;
+    margin-left: 60px;
+}
+
+#wakeup {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.1s;
+  }
+
+  #tamago_contents:hover #wakeup {
+      opacity: 1;
+  }
+
+  /* ひかる子猫 */
+  #cat_contents {
+      position: relative;
+      float: left;
+      margin-left: 70px;
+  }
+
+  #tora {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.1s;
+  }
+
+  　#cat_contents:hover #tora {
+      opacity: 1;
+
+
+  }
+
+
 
 
 
