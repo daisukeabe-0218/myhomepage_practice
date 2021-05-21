@@ -26,13 +26,13 @@ nav {
     }
     
 a {
-        text-decoration: none;
+
         font-weight: bold;
     }
     
 a:hover {
         color: slategray;
-        border-bottom: 1px solid;
+        text-decoration: none;
     }
     
 a:visited {
