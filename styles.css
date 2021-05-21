@@ -148,6 +148,7 @@ dl dd {
 #producer {
     width: 90%;
     text-align: center;
+    margin-top: 50px;
 }
 
 #producer_img{
@@ -166,14 +167,10 @@ dl dd {
 .img_contents {
     width: 200px;
     height: 200px;
-    margin-top: 150px;
-    margin-left: 50px;
+    margin-top: 50px;
 }
 
 /* 丸くなるゴリラ */
-#gorira_contents {
-    float: left;
-}
 
 #gorira:hover {
     border-radius: 50%;
@@ -182,7 +179,7 @@ dl dd {
 /* 卵から雛が */
 #tamago_contents {
     position: relative;
-    float: left;
+
 }
 
 #wakeup {
