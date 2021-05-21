@@ -107,8 +107,11 @@ table {
     border: solid 1px #fff;
     border-collapse: separate;
     border-spacing:10px 0px;
-    margin-top: 50px;
-    margin-left: 300px;
+    margin-top: 150px;
+    margin-left: 370px;
+    padding-top: 10px;
+    border: 1px solid;
+    box-shadow: 10px 10px 10px #0004;
 }
 
 table th {
