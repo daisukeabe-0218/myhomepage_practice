@@ -1,5 +1,4 @@
 body {
-    height: 100％;
     min-width: 800px;
     margin: 0 auto;
     background-color: #fff;
@@ -145,7 +144,11 @@ dl dd {
 #producer {
     width: 90%;
     text-align: center;
-    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 0;
+    border: solid 30px #fff;
 }
 
 #producer_img {
